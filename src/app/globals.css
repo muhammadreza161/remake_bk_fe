@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Caprasimo', cursive;
+}
+
+p {
+  line-height: 1.8;
+}
+
+body {
+  background-color: #f5eadd;
+  color: #502215;
+  font-size: 20px;
+}
+
+.text-orange {
+  color: #d92200;
+}
+
+.bg-orange {
+  background-color: #d92200;
+}
+
+.max-width {
+  @apply max-w-6xl mx-auto;
+}
